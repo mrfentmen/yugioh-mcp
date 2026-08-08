@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mrfentmen/yugioh-mcp",
+  "description": "MCP server for YGOPRODeck, Yu Gi Oh! cards, archetypes, and banlists.",
+  "repository": {
+    "url": "https://github.com/mrfentmen/yugioh-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "yugioh-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
